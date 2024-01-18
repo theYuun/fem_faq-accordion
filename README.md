@@ -56,13 +56,13 @@ I used Vue3 to create this project. It took me a bit longer than simply using HT
 I started the project asking 'phind' to rekindle my rusty Vue knowledge and adapted its results to my needs.
 > 'phind' also showed me some cool shortening techniques, like:
 > - where using the arrow buttons to loop from the bottom faq option back to the top one, using a mod calculation in stead of an if loop to match the array length to the index and setting the index to 0 or length - 1 should one navigate down past the last or up past the first, as I would usually do it. (Ex. 1)
-This in combination with youtube vids and the vue website helped get me back up to speed, although the power of Vue is not fully on display here.
+>This in combination with youtube vids and the Vue website helped get me back up to speed, although the power of Vue is not fully on display here.
 
 With the nature of Vue, I created the base components first to see the basic parts fit into place. I had to reshuffle things a bit when I realised that I need to decentralise some components, given that this is one small part of a theoretically larger project. (Ex. 2)
 > This means that I aught to have more carefully planned out how the website should be structured before I started putting things together.
 > This further helps with other facets of a project, like unit testing.
 
-With HTML alone, you can add additional classes to the class property, simple enough, but how do you deal with needing to add or remove classes on the fly per user input? normally you'd manipulate the '.classlist' using javascript, but Vue gives you bindings for some properties. In this case you can have a 'class=""' property and a ':class=""' property to add class dynamism (Ex. 3)
+With HTML alone, you can add additional classes to the class property, simple enough, but how do you deal with needing to add or remove classes on the fly per user input? normally you'd manipulate the ```.classlist``` using javascript, but Vue gives you bindings for some properties. In this case you can have a ```class=""``` property and a ```:class=""``` property to add class dynamism (Ex. 3)
 
 CSS you beautiful horror... or horrid beauty. A language that makes the "My code works and I have no idea why" meme all too real.
 Too often does one run into a problem like the need to change from using animations to transitions or vice versa, because 'that' property, it turns out, does not animate or stutters. (Ex. 4)
