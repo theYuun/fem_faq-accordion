@@ -148,7 +148,7 @@ I'll need to also build further understanding of event bubbling.
 
 - [phind](https://www.phind.com/search?home=true) - phind helped me understand quite a few ideas I used to do this project.
 - [vue.js](https://vuejs.org/guide/quick-start.html) - Always have the help guides for the software you're working with ready at hand. The examples in there can sometimes bridge the gaps simply reading cannot do.
-- [youtube](https://www.youtube.com) - Hands down, my favourite Vue teaching channel.
+- [youtube](https://www.youtube.com) - Of course, youtube :P
 
 ## Author
 
