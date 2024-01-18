@@ -130,44 +130,14 @@
     min-width: 30px;
     min-height: 30px;
     background: url('../../assets/images/icon-plus.svg');
-    /*
-    background-color: #af00eb;
-    border-radius: 50%;
-    color: #fff;
-    */
     margin-top: 1px;
     margin-right: 3px;
     transition: all 0.25s ease-out;
   }
-  /*
-  .accordionButton-icon::before {
-    content: '';
-    position: absolute;
-    left: 7px;
-    top: 11.5px;
-    width: 12px;
-    height: 2px;
-    background-color: #fff;
-  }
-  */
   .accordionButton-icon-open {
     background: url('../../assets/images/icon-minus.svg');
-    /*
-    background-color: #2d0f31;
-    */
     transition: all 0.25s ease-out;
   }
-  /*
-  .accordionButton-icon-open::after {
-    content: '';
-    position: absolute;
-    left: 12px;
-    top: 6px;
-    width: 2px;
-    height: 13px;
-    background-color: #fff;
-  }
-  */
   .accordionAnswer {
     font-size: 16px;
     line-height: 24px;
@@ -180,7 +150,7 @@
     opacity: 0;
     transform-origin: 50% 0%;
     transform: scaleY(var(--answerOpenSize));
-    transition: max-height 0.25s ease-out;
+    transition: all 0.25s ease-out;
   }
   
   .accordionAnswer-open {
@@ -189,7 +159,7 @@
     padding-top: 25px;
     max-height: 200px;
     opacity: 1;
-    transition: max-height 0.25s ease-out;
+    transition: all 0.25s ease-out;
   }
 
   @media (max-width: 375px) {

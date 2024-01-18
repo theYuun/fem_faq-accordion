@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github repo](https://github.com/theYuun/fem_faq-accordion.git)
+- Live Site URL: [github pages](https://theyuun.github.io/fem_faq-accordion/)
 ---
 ## My process
 
