@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="382.80331mm"
+   height="85mm"
+   viewBox="0 0 382.80331 85"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="bg-line.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.47433592"
+     inkscape:cx="633.51728"
+     inkscape:cy="241.39011"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="font-variation-settings:'wght' 400;fill:#301534;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect1520"
+       width="382.80331"
+       height="85"
+       x="3.5527137e-15"
+       y="0" />
+    <path
+       style="font-variation-settings:'wght' 400;fill:none;fill-rule:nonzero;stroke:#a335cf;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M -19.835558,43.856586 C 20.793247,57.860114 143.65847,-5.4523605 116.3222,-5.4523605 98.109413,-5.4523605 30.733739,61.315438 159.02201,80.608239 277.76257,98.465195 463.39728,-36.827601 309.05961,-37.576341 136.59149,-38.413037 138.21558,102.61821 163.94181,114.46906 189.66802,126.31992 306.54042,108.58231 306.54042,108.58231"
+       id="path857"
+       sodipodi:nodetypes="cssssc"
+       clip-path="none" />
+  </g>
+</svg>
