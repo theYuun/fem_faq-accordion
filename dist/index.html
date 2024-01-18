@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor - FAQ Accordion</title>
+    <style>
+
+      :root {
+        --lightPink: hsl(275, 100%, 97%);
+        --grayishPurple: hsl(292, 16%, 49%);
+        --darkPurple: hsl(292, 42%, 14%);
+      }
+
+      @font-face {
+        font-family: 'work-sans';
+        src: url('/fem_faq-accordion/assets/WorkSans-VariableFont_wght-ch3XJeH0.ttf');
+      }
+      
+      * {
+        font-family: 'work-sans';
+        
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        position: relative;
+        text-align: left;
+        background-color: var(--lightPink);
+      }
+      
+      #app {
+        width: 100%;
+        height: fit-content;
+        min-height: 900px;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+      }
+      
+      .reference {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 1440px;
+        opacity: 50%;
+        pointer-events: none;
+        border-bottom: 1px solid #000;
+      }
+      .refMeasure {
+        position: absolute;
+        left: 0;
+        top: 150px;
+        z-index: 101;
+        width: 100%;
+        height: 30px;
+      }
+
+      @media (max-width: 400px) {
+
+        .reference {
+          width: 375px;
+        }
+        
+        .refMeasure::after, .refMeasure::before {
+          content: '';
+          position: absolute;
+          right: 0;
+          width: 24px;
+          height: 30px;
+          background-color: red;
+        }
+        
+        .refMeasure::before {
+          left: 0;
+        }
+      }
+
+    </style>
+    <script type="module" crossorigin src="/fem_faq-accordion/assets/index-K-cO-c6Q.js"></script>
+    <link rel="stylesheet" crossorigin href="/fem_faq-accordion/assets/index-BLr5w8Qr.css">
+  </head>
+  <body>
+    <main id="app"></main>
+  </body>
+</html>
