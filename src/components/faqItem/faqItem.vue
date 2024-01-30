@@ -164,8 +164,6 @@
 
   @media (max-width: 375px) {
     
-    .accordionButton-header {
-    }
     .accordionButton {
       padding: 0;
       padding-top: 3px;
