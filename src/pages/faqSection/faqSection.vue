@@ -50,15 +50,14 @@
 
   // Method to handle arrow key navigation
   const handleKeydown = (event) => {
+    event.preventDefault();
+    let index = -1;
     if(event.key == "ArrowDown") {
-      event.preventDefault();
-      const nextIndex = (focusedIndex.value + 1) % faqs.value.length;
-      setFocus(nextIndex);
+      index = (focusedIndex.value + 1) % faqs.value.length;
     } else if (event.key == "ArrowUp") {
-      event.preventDefault();
-      const prevIndex = (focusedIndex.value - 1 + faqs.value.length) % faqs.value.length;
-      setFocus(prevIndex);
+      index = (focusedIndex.value - 1 + faqs.value.length) % faqs.value.length;
     }
+    setFocus(index);
   };
 
   // The onMounted and onUnmounted adds and removes the
@@ -75,24 +74,24 @@
 <template>
   <div>
     <div class="faqSection-header" id="faq-header">
-      <img src="../../assets/images/icon-star.svg" alt="" aria-hidden="true">
+      <img src="../../assets/images/icon-star.svg" alt="FAQ Icon" aria-hidden="true" role="none" >
       <h1>FAQs</h1>
     </div>
     <ul
       class="faqSection-list"
       aria-labelledby="faq-header"
-      role="region"
+      role="contentinfo"
       aria-live="polite"
-      tabindex="0">
+      tabindex="-1">
         <li
           v-for="(item, index) in faqs"
           class="faqItem"
-          tabindex="-1">
+          >
             <faqItem
             :index="item.index"
             :title="item.question"
             :content="item.answer"
-            @focus="focusedIndex = index"
+            @focus="focusedIndex = item.index"
             @blur="focusedIndex=-1" />
         </li>
     </ul>

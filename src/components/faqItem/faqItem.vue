@@ -165,9 +165,6 @@
   @media (max-width: 375px) {
     
     .accordionButton-header {
-      /*
-      padding: 20px 0;
-      */
     }
     .accordionButton {
       padding: 0;
@@ -188,9 +185,6 @@
     .accordionAnswer {
       font-size: 14px;
       line-height: 21px;
-      /*
-      padding-top: 6px;
-      */
     }
   }
 
